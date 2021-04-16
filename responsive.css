@@ -1,0 +1,92 @@
+@media only screen and (max-width: 900px) {
+    /* Header */
+    .header{
+        flex-direction: column;
+    }
+    .header ul{
+        flex-direction: column;
+    }
+    .header ul li{
+        margin-right: 0;
+        padding: 20px 5px;
+    }
+
+    /* Main */
+    main{
+        height: 60vh;
+    }
+    main h2{
+        font-size: 60px;
+    }
+    main p{
+        font-size: 28px;
+    }
+
+    /* About */
+    .about{
+        height: 75vh;
+    }
+
+    .about-text{
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 20px;
+        border-bottom: 2px dotted #B2B2B2;;
+    }
+
+    .about-text p{
+        width: 300px;
+    }
+    
+    .designers{
+        flex-wrap: nowrap;
+    }
+    .designer{
+        margin-right: 10px;
+    }
+    .designer img{
+        height: 70px;
+        width: 70px;
+    }
+    .designer h4{
+        font-size: 15px;
+    }
+
+    .icons i{
+        margin-right: 10px;
+        font-size: 17px;
+    }
+
+    /* Quotes */
+    .quotes{
+        height: 35vh;
+    }
+    .quotes p{
+        width: 270px;
+        font-size: 16px;
+    }
+
+    /* Servers */
+    .servers{
+        height: 100vh;
+    }
+
+    /* Footer */
+    footer{
+        height: 75vh;
+    }
+
+    .creator{
+        padding-right: 0;
+        border-right: none;
+        padding-bottom: 35px;
+        border-bottom: 2px dotted #B2B2B2;
+    }
+
+    .list-items{
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 35px;
+        border-bottom: 2px dotted #B2B2B2;
+    }
+}
