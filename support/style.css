@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+.main-page{
+    background-image: url(../assets/main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Header */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #504f4f;
+}
+.header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header ul li{
+    display: flex;
+    align-items: center;
+    padding: 40px 5px;
+    margin-right: 45px;
+}
+.header ul li:hover{
+    border-bottom: 1px solid white;
+}
+.header ul a{
+    color: #9E9E9E;
+    text-decoration: none;
+}
+.header ul a:hover{
+    color: white;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+#logo:hover{
+    border-bottom: 1px solid white;
+}
+
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    color: #9E9E9E;
+    height: 50vh;
+}
+main h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+main p{
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.input-elements{
+    display: flex;
+    align-items: center;
+}
+.input-elements input{
+    width: 350px;
+    height: 30px;
+    font-size: 18px;
+    padding: 4px 10px;
+}
+.input-elements button{
+    padding: 10px 20px;
+    background-color: #2FAC6C;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 15px;
+}
+.input-elements button:hover{
+    background-color: #21424A;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2A2A2A;
+    color: #646464;
+    height: 30vh;
+}
+
+.creator{
+    border-right: 1px solid #646464;
+    padding-right: 100px;
+}
+.creator p{
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.creator h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+.creator span{
+    font-weight: bold;
+}
+
+.list-items{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #646464;
+    padding-right: 100px;
+}
+
+.first-list{
+    margin-right: 50px;
+}
+.first-list li, .second-list li{
+    display: block;
+    align-items: center;
+    padding: 5px;
+}
+.first-list a, .second-list a{
+    color: #646464;
+    text-decoration: none;
+}
+.first-list a:hover, .second-list a:hover{
+    color: white;
+}
+
+.contacts p{
+    margin-bottom: 15px;
+}
+.contacts p:hover{
+    color: white;
+    cursor: pointer;
+}

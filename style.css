@@ -87,8 +87,7 @@ main p{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-
-     /* transform: skewX(-20deg); */
+   /* clip-path: polygon(0 0, 100% 0%, calc(97% - 10px) 100%, 0% 100%); */
 }
 
 .register-btn{
@@ -104,8 +103,7 @@ main p{
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-
-   /* transform: skewX(-20deg); */
+   /* clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%); */
 }
 
 /* About Us */
