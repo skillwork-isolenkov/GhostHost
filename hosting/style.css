@@ -96,3 +96,28 @@ main{
     background-color: #2FAC6C;
     color: white;
 }
+
+.box-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12%;
+}
+.box-item{
+    background-color: #2FAC6C;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.box-item:hover{
+    background-color: #21424A;
+    color: white;
+}
+.box h2{
+    font-size: 27px;
+}
+.box p{
+    font-size: 14px;
+    width: 245px;
+}
