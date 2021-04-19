@@ -3,6 +3,12 @@
     padding: 0;
     font-family: "Gill Sans", sans-serif;
 }
+.main-page{
+    background-image: url(../assets/main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Header */
 
 .header{
     display: flex;
@@ -39,4 +45,54 @@
 }
 #logo:hover{
     border-bottom: 1px solid white;
+}
+
+/* Main */
+main{
+    color: #9E9E9E;
+}
+
+.web-hosting{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.web-hosting img{
+    max-width: 100%;
+}
+
+.hosting-elements h2{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.hosting-elements h4{
+    font-weight: 200;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.hosting-elements span{
+    text-decoration: line-through;
+}
+.hosting-elements h5{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.hosting-elements button{
+    height: 50px;
+    padding: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.hosting-elements button:hover{
+    background-color: #2FAC6C;
+    color: white;
 }
