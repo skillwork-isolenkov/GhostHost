@@ -1,0 +1,61 @@
+@media only screen and (max-width: 900px) {
+    /* Header */
+    .header{
+        flex-direction: column;
+    }
+    .header ul{
+        flex-direction: column;
+    }
+    .header ul li{
+        margin-right: 0;
+        padding: 20px 5px;
+    }
+
+    /* Main */
+
+    /* Premium Domain */
+    .premium-domain{
+        text-align: center;
+        align-items: center;
+    }
+
+    .offer{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .offer button{
+        height: 40px;
+        padding: 10px 20px;
+        margin-right: 20px;
+    }
+
+    .input-box{
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .input-box input{
+        height: 25px;
+    }
+    /* Footer */
+    footer{
+        height: 75vh;
+    }
+
+    .creator{
+        padding-right: 0;
+        border-right: none;
+        padding-bottom: 35px;
+        border-bottom: 2px dotted #B2B2B2;
+    }
+
+    .list-items{
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 35px;
+        border-bottom: 2px dotted #B2B2B2;
+    }
+}
