@@ -52,10 +52,11 @@ main{
     color: #9E9E9E;
 }
 
+ /* Web Hosting */
 .web-hosting{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 5%;
 }
 .web-hosting img{
@@ -87,6 +88,7 @@ main{
     font-weight: bold;
     line-height: 50px;
     border-radius: 7px;
+    transition: 0.5s;
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
@@ -97,6 +99,7 @@ main{
     color: white;
 }
 
+ /* Box Items */
 .box-items{
     display: flex;
     flex-wrap: wrap;
@@ -107,8 +110,10 @@ main{
 .box-item{
     background-color: #2FAC6C;
     text-align: center;
+    transition: 0.5s;
     padding: 30px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .box-item:hover{
     background-color: #21424A;
@@ -120,4 +125,156 @@ main{
 .box p{
     font-size: 14px;
     width: 245px;
+}
+
+ /* Choose Plan */
+ .choose-plan{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin-top: 7%;
+ }
+ .choose-plan h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    line-height: 40px;
+    margin-top: 0;
+ }
+ .choose-plan .choose-paragraph{
+     margin-bottom: 50px;
+ }
+
+ .plans{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .plan{
+     background-color: #F5F5F5;
+     padding: 20px 70px;
+     border-radius: 5px;
+     margin-bottom: 5%;
+ }
+ .plan h3{
+     font-size: 30px;
+     margin-bottom: 15px;
+ }
+ .plan p{
+     font-size: 20px;
+ }
+ .plan .dollar{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+ }
+ .plan .price{
+     font-size: 70px;
+     color: black;
+ }
+ .plan h4{
+     line-height: 35px;
+     margin-top: 20px;
+     font-size: 15px;
+     font-weight: 300;
+ }
+ .plan button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background-color: #2FAC6C;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+ .plan button:hover{
+     background-color: #21424A;
+ }
+ 
+ .promo{
+    background-color: #2FAC6C;
+    margin-left: -70px;
+    margin-right: -70px;
+}
+.promo:hover{
+    background-color: #21424A;
+    cursor: pointer;
+}
+.promo h3{
+    color: white;
+}
+.promo .price-green{
+    font-size: 70px;
+    color: white;
+}
+.promo .dollar-green{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+    color: white;
+ }
+ .promo .month-green{
+     color: white;
+ }
+
+
+ /* Footer */
+ footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2A2A2A;
+    color: #646464;
+    height: 30vh;
+}
+
+.creator{
+    border-right: 1px solid #646464;
+    padding-right: 100px;
+}
+.creator p{
+    width: 300px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.creator h3{
+    font-size: 18px;
+    font-weight: 100;
+}
+.creator span{
+    font-weight: bold;
+}
+
+.list-items{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #646464;
+    padding-right: 100px;
+}
+
+.first-list{
+    margin-right: 50px;
+}
+.first-list li, .second-list li{
+    display: block;
+    align-items: center;
+    padding: 5px;
+}
+.first-list a, .second-list a{
+    color: #646464;
+    text-decoration: none;
+}
+.first-list a:hover, .second-list a:hover{
+    color: white;
+}
+
+.contacts p{
+    margin-bottom: 15px;
+}
+.contacts p:hover{
+    color: white;
+    cursor: pointer;
 }
