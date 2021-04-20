@@ -28,6 +28,7 @@
     align-items: center;
     padding: 40px 5px;
     margin-right: 45px;
+    transition: 1s;
 }
 .header ul li:hover{
     border-bottom: 1px solid white;
@@ -35,6 +36,7 @@
 .header ul a{
     color: #9E9E9E;
     text-decoration: none;
+    transition: 0.5s;
 }
 .header ul a:hover{
     color: white;
@@ -143,6 +145,7 @@ footer{
 .first-list a, .second-list a{
     color: #646464;
     text-decoration: none;
+    transition: 0.5s;
 }
 .first-list a:hover, .second-list a:hover{
     color: white;
@@ -150,6 +153,7 @@ footer{
 
 .contacts p{
     margin-bottom: 15px;
+    transition: 0.5s;
 }
 .contacts p:hover{
     color: white;
