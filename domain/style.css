@@ -141,8 +141,63 @@ main{
     background-color: #2FAC6C;
 }
 
-/* Links */
+/* Domains For Sale */
+.domains-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+.domains-page h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.domain-paragraph{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
 
+.domain-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.domain{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #646464;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.domain p{
+    transition: 1s;
+    cursor: pointer;
+}
+.domain p:hover{
+    color: #9E9E9E;
+}
+.domain button{
+    height: 40px;
+    padding: 11px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    background-color: #2FAC6C;
+    color: white;
+    cursor: pointer;
+    margin-left: 72px;
+}
+.domain button:hover{
+    background-color: #21424A;
+}
 /* Footer */
 footer{
     display: flex;
