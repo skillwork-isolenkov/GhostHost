@@ -50,7 +50,98 @@
 }
 
 /* Main */
+main{
+    color: #9E9E9E;
+}
 
+/* Premium Domain */
+.premium-domain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    border-bottom: 1px solid #504f4f;
+}
+.premium-domain h3{
+    text-transform: uppercase;
+}
+.premium-domain h2{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.premium-domain h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.premium-domain h4:hover{
+    color: white;
+}
+
+.offer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.offer button{
+    height: 46px;
+    padding: 11px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    background-color: #2FAC6C;
+    color: white;
+    cursor: pointer;
+}
+.offer button:hover{
+    background-color: #21424A;
+}
+
+.input-box input{
+    height: 20px;
+    padding: 11px 14px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.input-box i{
+    position: relative;
+    right: 27px;
+}
+
+.premium-domain span{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.domain-btn{
+    height: 46px;
+    padding: 11px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    background-color: #21424A;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.domain-btn:hover{
+    background-color: #2FAC6C;
+}
+
+/* Links */
 
 /* Footer */
 footer{
